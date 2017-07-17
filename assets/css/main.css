@@ -1,0 +1,89 @@
+@import url("tooltip.css");
+* {
+  font-family: 'Prompt', sans-serif;
+}
+.logoTroughtWork{
+  width: 40%;
+  margin-left:15px;
+  margin-top: 2%;
+}
+#tabs{
+  margin-top: 2%;
+}
+#tabs .nav-pills > li{
+  border: 1px solid rgb(51, 122, 183);
+  border-image: initial;
+  border-radius: 4px 4px 0px 0px;
+}
+#tabs .nav-pills > li > a{
+  border: 0px;
+  border-radius: 4px 4px 0px 0px;
+}
+.tab-content {
+  color : white;
+  background-color: #337ab7;
+  padding : 5px 15px;
+}
+.imgclass{
+  vertical-align: middle;
+  float: left;
+}
+.elements{
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+}
+a:hover {
+  color: #4284bc;
+  font-weight: bold;
+}
+.CuerpoTab{
+  border: 1px solid #337ab7;
+  background-color: #ffffff;
+  color: black;
+}
+.idle{
+  background-color: #fcf8e3;
+}
+.building{
+  background-color:#dff0d8;
+}
+.idle, .building {
+  border: 1px solid #ddd;
+  -webkit-border-radius: 10px 10px;  /* Safari  */
+  -moz-border-radius: 10px 10px;     /* Firefox */
+  margin: 15px;
+  padding: 10px;
+  height: auto;
+}
+.deny{
+  display: inline-block;
+  float: right;
+}
+.navbar-top-links {
+    margin-right: 0;
+}
+.navbar-top-links li:last-child {
+    margin-right: 15px;
+    margin-top: 2%;
+}
+.nav-pills>li.active>a{
+    color: #fff;
+    background-color: #337ab7;
+}
+.menutab{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.titular{
+  margin-left: 15px;
+  font-size: 23px;
+}
+.btnDelete{
+  color: #a94442;
+  margin-left: 2px;
+}
+.resource{
+  color: #555;
+  margin-left: 2%;
+}

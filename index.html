@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>ThoughtWorks | Front-End Developer Interview Homework</title>
+      <link rel="icon"  type="image/ico"  href="https://www.thoughtworks.com/imgs/favicons/favicon.ico">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Prompt:200,300,400,500" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+      <!-- Cabecera -->
+      <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+          <div class="navbar-header">
+              <img alt="ThoughtWorks" src="https://www.thoughtworks.com/imgs/tw-logo.png" title="ThoughtWorks" class="logoTroughtWork">
+          </div>
+          <ul class="nav navbar-top-links navbar-right">
+              <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="glyphicon glyphicon-user"></i> Eliana Silva <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="glyphicon glyphicon-user"></i> User Profile</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="glyphicon glyphicon-log-out"></i> Sing out</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+            </li>
+          </ul>
+      </nav>
+      <!-- FIN Cabecera -->
+      <div class="container">
+        <!-- Contenido -->
+          <div id="tabs" >
+              <div class="row">
+                  <div class="nav navbar-left titular"><p>Cruise</p></div>
+                  <!-- Tabs -->
+                  <ul class="nav nav-pills navbar-right menutab"  >
+                    <li class="tab"><a href="#dashboard" data-toggle="tab">DASHBOARD</a></li>
+                    <li class="tab"><a href="#mycruise" data-toggle="tab">MY CRUISE</a></li>
+                    <li class="tab"><a href="#agents" data-toggle="tab">AGENTS</a></li>
+                    <li class="tab"><a href="#help" data-toggle="tab" >HELP</a></li>
+                  </ul>
+              </div>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                  <div class="tab-pane" id="dashboard">
+                    <nav class="row">
+                      <div class="panel-heading">Dashboard</div>
+                    </nav>
+                    <div class="CuerpoTab row">
+                      <div class="panel-body">
+                        <h4>Sección en mantenimiento</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="mycruise">
+                    <nav class="row">
+                      <div class="panel-heading">My Cruise</div>
+                    </nav>
+                    <div class="CuerpoTab row">
+                      <div class="panel-body">
+                        <h4>Sección en mantenimiento</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane active" id="agents">
+                      <nav class="row">
+                        <div class="panel-heading">Agents
+
+                            <button type="button" class="btn btn-default navbar-btn">All</button>
+                            <button type="button" class="btn btn-default navbar-btn">Physical</button>
+                            <button type="button" class="btn btn-default navbar-btn">Virtual</button>
+                        </div>
+                      </nav>
+                      <div class="CuerpoTab row">
+                          <div class="panel-body">
+                              <div class="col-md-8">
+                                <div class="panel panel-default" id="section"></div>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                            <i class="glyphicon glyphicon-tasks"></i> Summary
+                                      </div>
+                                      <div class="panel-body">
+                                          <div class="list-group">
+                                              <p class="list-group-item">Buildiing
+                                              <span class="pull-right text-muted small"><em>2</em></span>
+                                              </p>
+                                              <p class="list-group-item">Idle
+                                              <span class="pull-right text-muted small"><em>2</em></span>
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                          <i class="glyphicon glyphicon-list-alt"></i> History
+                                      </div>
+                                      <div class="panel-body list-group">
+                                        <p class="list-group-item">bjstdmngbgr02 / Acceptance_test</p>
+                                        <p class="list-group-item">bjstdmngbgr02 / Acceptance_test</p>
+                                        <p class="list-group-item">bjstdmngbgr02 / Acceptance_test</p>
+                                        <p class="list-group-item">bjstdmngbgr02 / Acceptance_test</p>
+                                        <p class="list-group-item">bjstdmngbgr02 / Acceptance_test</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane" id="help">
+                    <nav class="row">
+                      <div class="panel-heading">Help!</div>
+                    </nav>
+                    <div class="CuerpoTab row">
+                      <div class="panel-body">
+                        <h4>Sección en mantenimiento</h4>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <!-- Pie de pagina -->
+              <footer class="row">
+                <div class="panel-body">
+                  <p>Copyright: ThoughtWorks INC.</p>
+                </div>
+              </footer>
+          </div>
+      <!-- FIN contenido -->
+      </div>
+      <script type='text/javascript' src='assets/js/app.js'></script>
+      <script type='text/javascript' src='assets/js/main.js'></script>
+      <script type='text/javascript' src='assets/js/functions.js'></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+  </html>
